@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\gwangyi\IdeaProjects\UCraftSim\out\artifacts\UCraftSim_jar\UCraftSim.jar</jar>
+  <outfile>C:\Users\gwangyi\IdeaProjects\UCraftSim\out\artifacts\UCraftSim_jar\ucraftsim.exe</outfile>
+  <errTitle>UCraftSim</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\gwangyi\IdeaProjects\UCraftSim\semiicon.ico</icon>
+  <singleInstance>
+    <mutexName>ucraft_sim_semi</mutexName>
+    <windowTitle></windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>1.7.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+  <splash>
+    <file>C:\Users\gwangyi\IdeaProjects\UCraftSim\semi.bmp</file>
+    <waitForWindow>true</waitForWindow>
+    <timeout>60</timeout>
+    <timeoutErr>true</timeoutErr>
+  </splash>
+  <versionInfo>
+    <fileVersion>0.1.0.0</fileVersion>
+    <txtFileVersion>0.1.0.0</txtFileVersion>
+    <fileDescription>UCraft Battle Simulator</fileDescription>
+    <copyright>dontdothat</copyright>
+    <productVersion>0.1.0.0</productVersion>
+    <txtProductVersion>0.1.0.0</txtProductVersion>
+    <productName>UCraft Battle Simulator</productName>
+    <companyName>[UAS] United Alliance of Semi</companyName>
+    <internalName>ucraftsim</internalName>
+    <originalFilename>ucraftsim.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>
